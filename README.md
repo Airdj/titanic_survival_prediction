@@ -2,7 +2,7 @@
 
 Titanic disaster data analysis project using data mining, and machine learning techniques to predict passenger chances of survival.
 
-Kaggle overview link: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/competitions/titanic/overview)
+Kaggle overview link: https://www.kaggle.com/competitions/titanic/overview
 
 Score is the percentage of passengers you correctly predict. This is known as accuracy.
 
