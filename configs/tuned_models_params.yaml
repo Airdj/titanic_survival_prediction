@@ -1,0 +1,60 @@
+ridge_params:
+  params:
+    alpha: 31.015093199909064
+    fit_intercept: true
+    solver: auto
+    max_iter: 38671
+  score: 0.8157142857142856
+gbr_params:
+  params:
+    loss: log_loss
+    learning_rate: 0.014042412621447451
+    n_estimators: 420
+    subsample: 0.5754842160884217
+    max_depth: 5
+    max_features: null
+  score: 0.8285714285714285
+logreg_params:
+  params:
+    penalty: l2
+    C: 0.4405454593086213
+    class_weight: null
+    solver: saga
+  score: 0.8114285714285714
+lgbm_params:
+  params:
+    n_estimators: 870
+    learning_rate: 0.1305504158238057
+    num_leaves: 203
+    max_depth: 14
+    min_child_samples: 13
+    subsample: 0.8865174911848983
+    colsample_bytree: 0.5871563658194234
+    lambda_l1: 1.2423865728891104
+    lambda_l2: 4.777473503290705
+    boosting_type: gbdt
+    class_weight: null
+  score: 0.8314285714285713
+xgb_params:
+  params:
+    n_estimators: 116
+    learning_rate: 0.23895162351556815
+    max_depth: 8
+    min_child_weight: 3
+    subsample: 0.9934702010364067
+    colsample_bytree: 0.9997483775787797
+    gamma: 0.158665036981533
+    reg_alpha: 3.6131840837361286
+    reg_lambda: 9.721959677487835
+    booster: gbtree
+  score: 0.8257142857142856
+rfc_params:
+  params:
+    n_estimators: 983
+    max_depth: 27
+    min_samples_split: 6
+    min_samples_leaf: 3
+    max_features: null
+    criterion: entropy
+    class_weight: balanced_subsample
+  score: 0.8314285714285713

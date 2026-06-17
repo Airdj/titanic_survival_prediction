@@ -1,0 +1,8 @@
+venv/
+.venv/
+titanic_venv/
+mlartifacts/
+mlflow.db
+.idea/
+.ipynb_checkpoints/
+__pycache__/
